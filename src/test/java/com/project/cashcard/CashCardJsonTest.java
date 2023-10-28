@@ -31,8 +31,8 @@ public class CashCardJsonTest {
     public void cashCardDeserializationTest() throws IOException {
         String expected = """
                 {
-                    "id":99,
-                    "amount":123.45
+                    "id": 99,
+                    "amount": 123.45
                 }
                 """;
         assertThat(json.parse(expected))
